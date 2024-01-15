@@ -39,6 +39,7 @@ sudo apt-get install -y certbot python3-certbot-nginx
 
 # Instalasi Composer
 sudo apt-get install -y composer
+composer install 
 
 # Konfigurasi Nginx dan SSL dengan Certbot
 sudo tee "/etc/nginx/sites-available/$project_name" > /dev/null <<EOF
